@@ -1,7 +1,7 @@
 import { HttpHeaders } from "@angular/common/http";
 import { Component, OnInit } from "@angular/core";
-import { JWTLoginService } from "../services/auth/jwtlogin.service";
-import { UserAuthService } from "../services/auth/user-auth.service";
+import { JWTLoginService } from "../services/jwtlogin.service";
+import { UserAuthService } from "../services/user-auth.service";
 
 @Component({
   selector: "app-login",
